@@ -1,5 +1,6 @@
 deploy_path: "/tmp/hap-sample-deploy"
-local_directory: '/home/fmino/Code/QL/hapistrano-ql'
+repo: "https://github.com/felixminom/hapitrano-deploy-sample.git"
+revision: "origin/master"
 host: vagrant@127.0.0.1
 port: 2223
 
