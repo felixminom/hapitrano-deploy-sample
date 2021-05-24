@@ -1,0 +1,9 @@
+deploy_path: "/tmp/hap-sample-deploy"
+local_directory: '/home/fmino/Code/QL/hapistrano-ql'
+host: vagrant@127.0.0.1
+port: 2223
+
+build_script:
+  - stack clean --full
+  - stack setup
+  - stack build -j1
