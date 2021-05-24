@@ -1,6 +1,6 @@
 deploy_path: "/tmp/hap-sample-deploy"
 repo: "https://github.com/felixminom/hapitrano-deploy-sample.git"
-revision: "origin/master"
+revision: "origin/release_with_errors"
 host: vagrant@127.0.0.1
 port: 2223
 
